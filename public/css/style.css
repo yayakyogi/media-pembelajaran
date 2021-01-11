@@ -1,0 +1,48 @@
+body{
+    background-color: #e7e7e7;
+}
+.wrapper{
+    width:700px;
+    margin: 0 auto;
+}
+.isi{
+    padding-top: 55px;
+}
+.list{
+    margin-left: -15px;
+}
+.img{
+    border-radius: 10px;
+}
+#jumbotron-materi{
+    background: linear-gradient(30deg,#3a7bd5,#00d2ff);
+    box-shadow: -1px -1px 5px gray;
+}
+#close-about{
+    color: white;font-weight: bold; position: absolute; right: 20px; bottom:10px;
+}
+#close-contact{
+    color: white;font-weight: bold; position: absolute; right: 20px; bottom:10px;
+}
+.heart{
+    color: red;
+    font-size: 13pt;
+}
+.about-me{
+    text-align: left;
+}
+@media only screen and (max-width:720px){
+    .wrapper{
+        width: auto;
+        padding: 0 10px;
+    }
+    .isi-materi{
+        font-size: 12pt;
+    }
+    .img-profil, .about-me{
+        display: none;
+    }
+    .judul-form{
+        margin-top: 25px;
+    }
+}
